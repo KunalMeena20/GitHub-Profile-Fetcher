@@ -1,0 +1,110 @@
+.upper {
+    width: 50rem;
+    position: absolute;
+    top: 0;
+    left: 28%;
+}
+
+h1{
+    color: cornflowerblue;
+    margin-bottom: 4rem;
+}
+
+input, button {
+  border: none;
+  outline: none;
+  appearance: none; /* removes default browser styling */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: inherit;
+}
+
+/* Modern input style */
+input {
+  padding: 12px 16px;
+  border: 0.15rem solid cornflowerblue;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 25rem;
+  transition: 0.2s;
+  background-color: white;
+  margin-right: 2rem;
+  color: black;
+}
+
+input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 4px #6366f1;
+}
+
+/* Modern button style */
+button {
+  padding: 12px 20px;
+  background: transparent;
+  color: cornflowerblue;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 0.15rem solid cornflowerblue;
+}
+
+button:hover {
+  background: cornflowerblue;
+  color: white;
+}
+
+.lower{
+    position: absolute;
+    bottom: 15rem;
+    height: 25rem;
+    width: 55rem;
+    left: 30rem;
+    border: 0.2rem solid cornflowerblue;
+    border-radius: 5rem;
+}
+
+img{
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    left: 2rem;
+    border: 0.2rem solid cornflowerblue;
+    border-spacing: 20px;
+    top: 2rem;
+}
+
+h2{
+    transform: scale(2);
+    position: relative;
+    left: 28rem;
+    margin-bottom: 2rem;
+    top: 2rem;
+    width: 17rem;
+    text-align: start;
+}
+
+.bio{
+    position: relative;
+    left: 19.5rem;
+    margin-bottom: 2rem;
+    top: 2rem;
+    width: 34rem;
+    text-align: start;
+}
+
+.extra{
+    position: relative;
+    left: 19.4rem;
+    top: 2rem;
+    text-align: start;
+    width: 34rem;
+}
+
+a{
+    position: relative;
+    top: 8rem;
+    left: 5rem;
+    color: cornflowerblue;
+}
